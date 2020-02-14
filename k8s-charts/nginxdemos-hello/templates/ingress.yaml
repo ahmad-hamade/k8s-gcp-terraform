@@ -1,0 +1,12 @@
+{{- if .Values.ingress.enabled -}}
+{{- $fullName := include "nginxdemos-hello.fullname" . -}}
+{{- $svcPort := .Values.service.port -}}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}
+spec:
+  backend:
+    serviceName: {{ $fullName }}
+    servicePort: {{ $svcPort }}
+{{- end }}

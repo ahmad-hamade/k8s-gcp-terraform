@@ -1,0 +1,11 @@
+What is your favorite feature that GCP or its competitor has recently brought to market, and how are you intending to use it?
+
+Since I'm using AWS along with Kubernetes, I was happy to see the clean integration between AWS AppMesh and Istio along with EKS.
+The second cool feature that got introduced recently is to use EKS with managed nodes instead of having a custom AMI for running K8s nodes.
+
+########################################################
+
+What future or current technology do you look forward to the most or want to use and why?
+Kubernetes and service mesh.
+
+Since I used to work as a developer, I deeply understand how important are these 2 stacks and how it can help the business in terms of releasing fast and with running multi versioned app in a single cluster along with other cool features with security, monitoring, and circuit breaker.
