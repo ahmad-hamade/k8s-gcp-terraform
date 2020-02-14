@@ -1,4 +1,4 @@
-# Everon Assignment
+# Simple K8s cluster in GCP with Helm chart demo deployment
 Readme.md contains prerequisits on how to setup the environment, and information on how to add additional microservices helm charts.
 
 ## Prerequisits
